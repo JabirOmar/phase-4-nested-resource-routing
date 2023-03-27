@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2021_05_09_111524) do
     t.decimal "longitude", precision: 10, scale: 6
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    
   end
 
   create_table "reviews", force: :cascade do |t|
